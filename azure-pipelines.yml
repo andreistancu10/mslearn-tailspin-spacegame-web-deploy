@@ -13,7 +13,7 @@ schedules:
     include:
     - release
   always: false
-
+stages:
 - stage: 'Build'
   displayName: 'Build and push'
   jobs:  
